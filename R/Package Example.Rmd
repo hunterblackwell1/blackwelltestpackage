@@ -1,0 +1,26 @@
+---
+title: "Package Example"
+author: "Hunter Blackwell"
+date: "2023-04-28"
+output: html_document
+---
+
+```{r, Player data}
+playerdata <- playerstats()
+```
+
+```{r, Player}
+Paolo <- get_player_stats("Paolo Banchero")
+Paolo
+```
+
+```{r, Team}
+Magic <- get_team_stats("ORL")
+Magic
+```
+
+```{r, Team}
+orl <- orl_team_stats()
+orl
+```
+
