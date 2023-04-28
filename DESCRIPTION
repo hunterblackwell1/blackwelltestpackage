@@ -1,0 +1,11 @@
+Package: blackwelltestpackage
+Type: Package
+Title: This package analyzes basketball season totals to create player and team statistics.
+Version: 0.0.0.9000
+Author: "Hunter Blackwell <blackwell.h@usf.edu> [aut, cre]"
+Maintainer: Hunter Blackwell  <blackwell.h@usf.edu>
+Description: This package is designed to use a list of functions to analyze the season statistics of individual basketball players and teams as a whole for the 2022/23 season. The goal of this package is to take season totals and create per game statistics as well as advanced statistics.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
